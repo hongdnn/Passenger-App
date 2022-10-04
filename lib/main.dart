@@ -35,7 +35,7 @@ import 'package:google_maps_flutter_platform_interface/google_maps_flutter_platf
 bool _initialUriIsHandled = false;
 GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();
 
-void main() async {
+Future main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
