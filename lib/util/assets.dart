@@ -1,5 +1,5 @@
 class SvgAssets {
-  static const String _path = 'assets/icons';
+  static const String _path = 'packages/passenger/assets/icons';
 
   static const String icLocation = '$_path/ic_location.svg';
   static const String icUpArrow = '$_path/ic_up_arrow.svg';
@@ -83,7 +83,7 @@ class SvgAssets {
 }
 
 class PngAssets {
-  static const String _path = 'assets/images';
+  static const String _path = 'packages/passenger/assets/images';
   static const String icCar = '$_path/ic_car.png';
   static const String icLocationCurrent = '$_path/ic_location_current.png';
   static const String icBanner = '$_path/ic_banner.png';

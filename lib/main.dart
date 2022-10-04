@@ -38,7 +38,6 @@ GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
-    name: 'Consumer',
     options: DefaultFirebaseOptions.currentPlatform,
   );
   await get_it.init();
@@ -65,11 +64,11 @@ void main() async {
   if (mapsImplementation is GoogleMapsFlutterAndroid) {
     mapsImplementation.useAndroidViewSurface = true;
   }
-  runApp(
-    const MyApp(
-      key: ValueKey<String>('my-app'),
-    ),
-  );
+  // runApp(
+  //   const MyApp(
+  //     key: ValueKey<String>('my-app'),
+  //   ),
+  // );
 }
 
 class MyApp extends StatelessWidget {
