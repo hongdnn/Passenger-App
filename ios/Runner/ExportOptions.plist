@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   ExportOptions.plist
+   Runner
+
+   Created by tungnc on 14/07/2022.
+   Copyright (c) 2022 . All rights reserved.
+-->
+<plist version="1.0">
+<dict>
+    <key>provisioningProfiles</key>
+    <dict>
+        <key>th.co.robinhood.consumerdev</key>
+        <string>rbh_rh_consumer_app</string>
+    </dict>
+    <key>method</key>
+    <string>enterprise</string>
+    <key>teamID</key>
+    <string>9LUGKT2FJS</string>
+</dict>
+</plist>

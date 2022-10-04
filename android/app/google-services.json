@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "345550591839",
+    "firebase_url": "https://fir-26d34-default-rtdb.firebaseio.com",
+    "project_id": "fir-26d34",
+    "storage_bucket": "fir-26d34.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:345550591839:android:10cfb786be3b8879df48ea",
+        "android_client_info": {
+          "package_name": "com.th.rbh.driverApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "345550591839-sbftpusnu12gli45o1prrosa0s7gq15j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSoV181Lm1dldN1U1YMhIuoiUIZ3Luijk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "345550591839-sbftpusnu12gli45o1prrosa0s7gq15j.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "345550591839-6p8cpgpr83i2qj7oe4nss402qn1bccul.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.th.rbh.driverAppa"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:345550591839:android:2faf8f08ee0ad3ccdf48ea",
+        "android_client_info": {
+          "package_name": "th.co.robinhood.consumer.rh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "345550591839-sbftpusnu12gli45o1prrosa0s7gq15j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSoV181Lm1dldN1U1YMhIuoiUIZ3Luijk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "345550591839-sbftpusnu12gli45o1prrosa0s7gq15j.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "345550591839-6p8cpgpr83i2qj7oe4nss402qn1bccul.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.th.rbh.driverAppa"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

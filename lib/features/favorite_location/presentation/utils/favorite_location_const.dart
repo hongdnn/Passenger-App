@@ -1,0 +1,1 @@
+enum FavoriteLocationPageStep { pickLocationOnMap, editName }
