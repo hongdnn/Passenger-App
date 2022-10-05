@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:passenger/l10n/generated/app_localizations.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 // import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:passenger/core/app_config/app_router.dart';
