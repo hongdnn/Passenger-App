@@ -21,10 +21,7 @@
     </queries>
     <application android:label="passenger" android:name="${applicationName}" android:icon="@mipmap/ic_launcher">
         <meta-data android:name="com.google.firebase.messaging.default_notification_icon" android:resource="@mipmap/ic_launcher" />
-        <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyCx5Ui_2d0oV9L-UZ5hCFoXDHUQm_rC_JE" />
-        <!-- AIzaSyCx5Ui_2d0oV9L-UZ5hCFoXDHUQm_rC_JE Key NAM-->
-        <!-- AIzaSyCi8bC5OHtvA57WuSihJSOpXuzfiv20sW0 key khách-->
-        <!-- AIzaSyBPx2P9bZFoQEwMuu8YQ7w0ygl-XSmaAvg Key test-->
+        <meta-data android:name="com.google.android.geo.API_KEY" android:value="${mapApiKey}"/>
         <meta-data
         android:name="com.google.firebase.messaging.default_notification_channel_id"
         android:value="high_importance_channel" />

@@ -52,6 +52,13 @@ android {
         targetSdkVersion flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
+
+        // Load credentials.
+        def properties = new Properties()
+        file("../local.properties").withInputStream { properties.load(it) }
+
+        // Share the key with your `AndroidManifest.xml`
+        manifestPlaceholders = [applicationName: "android.app.Application", mapApiKey:"${properties.getProperty('API_KEY')}"]
     }
 
     buildTypes {
